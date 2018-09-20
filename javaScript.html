@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+function effect()
+{
+   var x=document.getElementById("Para1");
+   x.style.backgroundColor="red";
+   
+}
+function effectBack()
+{
+   var x=document.getElementById("Para1");
+   x.style.backgroundColor="white";
+   
+}
+function effecth()
+{
+      
+   var y=document.getElementById("Para");
+   y.style.color="green";
+}
+function effectBackh()
+{
+      
+   var y=document.getElementById("Para");
+   y.style.color="black";
+}
+</script>
+</head>
+<body>
+<h1 id="Para" onmouseover="effecth()" onmouseleave="effectBackh()">Welcome to Java Script</h1>
+<p id="Para1" onmouseover="effect()" onmouseleave="effectBack()">This is nothing but java script code...</p>
+</body>
+</html>
